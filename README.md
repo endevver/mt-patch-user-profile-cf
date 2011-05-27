@@ -1,6 +1,6 @@
 # 'User profiles custom field bug' patch plugin for Movable Type 4.3x #
 
-This plugin implements a patch for Movable Type v4.3x installations running Custom Fields to resolve a bug in which values for user custom fields are not displayed on the user profile page.
+This plugin implements a patch for Movable Type v4.3x installations running Custom Fields to resolve a bug ([FogBugz case 103714](http://bugs.movabletype.org/?103714)) in which values for user custom fields are not displayed on the user profile page.
 
 ## INSTALLATION ##
 
