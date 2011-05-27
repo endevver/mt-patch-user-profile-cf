@@ -1,0 +1,14 @@
+name:         User profile custom fields bug patch
+version:      1.0
+description:  'This plugin patches the issue described on <a href="http://bugs.movabletype.org/?103714">MT bug #103714</a> in which user custom fields are not shown on the user profile.  It ONLY has an effect on the system if <code><strong>UserProfileCFPatchEnabled</strong></code> is set to the <strong>current MT version</strong> in <strong>mt-config.cgi</strong>.'
+key:          UserProfileCFPatch
+id:           UserProfileCFPatch
+author_name:  "Jay Allen, Endevver LLC"
+author_url:   http://endevver.com/
+
+callbacks:
+    post_init: $UserProfileCFPatch::UserProfileCFPatch::post_init
+
+config_settings:
+    UserProfileCFPatchEnabled:
+        default: 0
